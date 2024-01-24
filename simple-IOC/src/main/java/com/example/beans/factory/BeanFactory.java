@@ -4,16 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * simplest ioc container,Map<String,BeanDefinition> is the mainly content
+ * IOC's basic interface, provide simple get method of bean;
  */
-public class BeanFactory {
-    // simplest bean container
-    private Map<String,Object> beanMap = new HashMap<>();
-
-    public void registerBean(String name,Object bean) {
-        beanMap.put(name,bean);
-    }
-    public Object getBean(String name){
-        return beanMap.get(name);
-    }
+public interface BeanFactory {
+    Object getBean(String name);
+    boolean containsBean(String name);
 }

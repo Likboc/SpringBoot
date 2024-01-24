@@ -9,9 +9,9 @@ public class BeanDefinition {
     public static String SCOPE_PROTOTYPE = "prototype";
     //bean class type
      private Class<?> beanClass;
-     // constructor method value
+     // constructor method name of bean;
      private String initMethodName;
-     // destroy method name
+     // destroy method name of bean;
      private String destroyMethodName;
      // bean default scope
      private String scope = SCOPE_SINGLETON;
