@@ -9,4 +9,7 @@ Bean描述和注册的接口
 ## BeanFactoryPostProcessor & BeanPostProcessor
 spring提供的两大扩展机制，spring重量级接口。
 
-BeanFactoryPostPr
+BeanFactoryPostProcessor
+
+## 基础实现类
+- ConfigurableBeanFactory
