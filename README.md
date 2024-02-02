@@ -1,6 +1,6 @@
 # SpringBoot
 
-本项目为Spring Boot 学习项目，仅供参考
+>本项目为Spring Boot 学习项目，提供核心功能实现
 
 ## BeanFactory
 spring 最简单的IOC容器，提供了增加，查询两种方式。
