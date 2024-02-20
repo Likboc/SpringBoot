@@ -4,46 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3fd3f7f-13be-4551-ac41-f4dd2b3783db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-spring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/Aware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/config/AutowireCapableBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/PropertyValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/PropertyValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/PropertyValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/PropertyValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/Aware.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/BeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/BeanFactoryAware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/BeanFactoryAware.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/BeansException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/BeansException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/ConfigurableListableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/ConfigurableListableBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/DefaultListableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/DefaultListableBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/DisposableBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/DisposableBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/HierarchicalBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/HierarchicalBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/ListableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/ListableBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/config/AutowireCapableBeanFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/config/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/config/BeanDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/config/BeanFactoryPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/config/BeanFactoryPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/config/BeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/config/BeanPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/config/BeanReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/config/BeanReference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/support/AbstractBeanFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/support/BeanDefinitionRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/support/CglibSubclassingInstantiationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/support/CglibSubclassingInstantiationStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/support/DefaultListableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/support/DefaultSingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/support/InstantiationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/support/InstantiationStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/support/SimpleInstantiationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/support/SimpleInstantiationStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/beans/factory/support/SingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/factory/support/SingletonBeanRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/core/io/FileSystemResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/core/io/FileSystemResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/main/java/com/example/core/io/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/core/io/Resource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-IOC/src/test/java/com/example/AppTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="f3fd3f7f-13be-4551-ac41-f4dd2b3783db" name="Changes" comment="-m &quot;hi&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,10 +77,24 @@
       <workItem from="1706947343320" duration="1814000" />
       <workItem from="1707037192131" duration="612000" />
       <workItem from="1708183473760" duration="2720000" />
+      <workItem from="1708435206757" duration="1830000" />
     </task>
+    <task id="LOCAL-00001" summary="-m &quot;hi&quot;">
+      <option name="closed" value="true" />
+      <created>1708435297001</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708435297001</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-m &quot;hi&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="-m &quot;hi&quot;" />
   </component>
 </project>
