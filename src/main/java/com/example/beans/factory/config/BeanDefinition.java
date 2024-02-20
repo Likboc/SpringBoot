@@ -28,7 +28,7 @@ public class BeanDefinition {
         this.prototype = SCOPE_PROTOTYPE.equals(scope);
     }
 
-    public Class<?> getBeanClass(){
+    public Class<?> getBeanClass() {
         return this.beanClass;
     }
 

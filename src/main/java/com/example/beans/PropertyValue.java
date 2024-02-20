@@ -1,5 +1,8 @@
 package com.example.beans;
 
+/**
+ * Bean properties
+ */
 public class PropertyValue {
     private final String name;
     private final Object value;

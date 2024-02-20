@@ -2,12 +2,15 @@ package com.example.beans.factory.support;
 
 import com.example.beans.factory.config.BeanDefinition;
 
-import java.util.Arrays;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class DefaultListableBeanFactory implements BeanDefinitionRegistry{
+/**
+ * final ioc container, all features included
+ */
+
+public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFactory implements BeanDefinitionRegistry{
     private Map<String,Object> beanDefinitionMap = new ConcurrentHashMap<>(256);
     @Override
     public void registerBeanDefinition(String beanName, BeanDefinition beanDefinition) {
