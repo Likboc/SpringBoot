@@ -1,4 +1,7 @@
 package com.example.context;
 
-public interface ApplicationContext{
+import com.example.beans.factory.HierarchicalBeanFactory;
+import com.example.beans.factory.ListableBeanFactory;
+
+public interface ApplicationContext extends ListableBeanFactory, HierarchicalBeanFactory, ApplicationEventPublisher{
 }
