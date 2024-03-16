@@ -1,35 +1,32 @@
 package com.example.beans.factory.config;
 
+import lombok.Data;
+import lombok.Getter;
+
 /**
- * bean attribute value, include class type & field
+ * bean 的相关信息类
  */
+
+@Data
 public class BeanDefinition {
 
     public static String SCOPE_SINGLETON = "singleton";
     public static String SCOPE_PROTOTYPE = "prototype";
-    //bean class type
-     private Class<?> beanClass;
-     // constructor method name of bean;
-     private String initMethodName;
-     // destroy method name of bean;
-     private String destroyMethodName;
-     // bean default scope
-     private String scope = SCOPE_SINGLETON;
-     private boolean singleton = true;
-     private boolean prototype = false;
-     private boolean lazyInit = false;
+    private Class<?> beanClass;
+    private String initMethodName;
+    private String destroyMethodName;
+    private String scope = SCOPE_SINGLETON;
+    private boolean singleton = true;
+    private boolean prototype = false;
+    private boolean lazyInit = false;
 
     /**
-     * set bean scope
+     * 设置Bean的作用域
      */
     public void setScope(String scope) {
         this.scope = scope;
         this.singleton = SCOPE_SINGLETON.equals(scope);
         this.prototype = SCOPE_PROTOTYPE.equals(scope);
-    }
-
-    public Class<?> getBeanClass() {
-        return this.beanClass;
     }
 
 }
