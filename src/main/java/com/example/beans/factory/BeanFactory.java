@@ -1,7 +1,8 @@
 package com.example.beans.factory;
 
 /**
- * the most basic IOC 容器，由于功能分割，目前仅提供获取，查询功能。
+ * 顶级接口实现IOC基础功能
+ * 工厂设计模式
  */
 public interface BeanFactory {
 
