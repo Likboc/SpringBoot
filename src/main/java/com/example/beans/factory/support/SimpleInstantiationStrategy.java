@@ -4,6 +4,9 @@ import com.example.beans.factory.config.BeanDefinition;
 
 import java.lang.reflect.Constructor;
 
+/**
+ * 基于反射实现Bean的创建
+ */
 public class SimpleInstantiationStrategy implements InstantiationStrategy{
     @Override
     public Object instantiate(BeanDefinition beanDefinition) throws Exception {
