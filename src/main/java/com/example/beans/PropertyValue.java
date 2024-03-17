@@ -1,7 +1,7 @@
 package com.example.beans;
 
 /**
- * Bean properties
+ * Bean 的字段和属性
  */
 public class PropertyValue {
     private final String name;
