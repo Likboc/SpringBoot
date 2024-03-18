@@ -1,11 +1,14 @@
 package com.example.beans;
 
+import lombok.Data;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Bean 的属性列表
  */
+@Data
 public class PropertyValues {
     List<PropertyValue> propertyValueList = new ArrayList<>();
 
